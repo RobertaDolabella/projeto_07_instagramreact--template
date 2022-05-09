@@ -1,6 +1,6 @@
 function Topo() {
     const logo = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
-    const insta = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeI2kCPHOKXqCaYxvorTcIETh8oDlm11ZplA&usqp=CAU"
+    const insta = "https://e7.pngegg.com/pngimages/783/216/png-clipart-little-black-dress-little-black-dress-logo-product-intagram-text-logo.png"
     return (
 
     <div class="topo">
