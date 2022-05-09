@@ -10,58 +10,58 @@ function Stories() {
     const fotoStory8 = "http://pm1.narvii.com/7573/75cf3b04b681aab3ec56643e9a6ad1ac5777f25er1-526-505v2_uhq.jpg"
     return (
 
-        <div class="story">
-            <div class="img-story">
-                <img class="imagem1" src={borda} alt="imagem1" width="66px" />
-                <img class="imagem1" src={borda} alt="imagem1" width="66px" />
-                <img class="imagem1" src={borda} alt="imagem1" width="66px" />
-                <img class="imagem1" src={borda} alt="imagem1" width="66px" />
-                <img class="imagem1" src={borda} alt="imagem1" width="66px" />
-                <img class="imagem1" src={borda} alt="imagem1" width="66px" />
-                <img class="imagem1" src={borda} alt="imagem1" width="66px" />
-                <img class="imagem1" src={borda} alt="imagem1" width="66px" />
+        <div className="story">
+            <div className="img-story">
+                <img className="imagem1" src={borda} alt="imagem1" width="66px" />
+                <img className="imagem1" src={borda} alt="imagem1" width="66px" />
+                <img className="imagem1" src={borda} alt="imagem1" width="66px" />
+                <img className="imagem1" src={borda} alt="imagem1" width="66px" />
+                <img className="imagem1" src={borda} alt="imagem1" width="66px" />
+                <img className="imagem1" src={borda} alt="imagem1" width="66px" />
+                <img className="imagem1" src={borda} alt="imagem1" width="66px" />
+                <img className="imagem1" src={borda} alt="imagem1" width="66px" />
             </div>
-            <div class="img-perfil-story">
-                <img class="foto-perfil-story" src={fotoStory1} alt=""
+            <div className="img-perfil-story">
+                <img className="foto-perfil-story" src={fotoStory1} alt=""
                     width="56px" height="56px"/>
-                    <img class="foto-perfil-story" src={fotoStory2} alt="" width="56px"
+                    <img className="foto-perfil-story" src={fotoStory2} alt="" width="56px"
                         height="56px"/>
-                        <img class="foto-perfil-story" src={fotoStory3} alt="" width="56px" height="56px"/>
-                            <img class="foto-perfil-story" src={fotoStory4} alt="" width="56px" height="56px" />
-                            <img class="foto-perfil-story" src={fotoStory5} alt="" width="56px" height="56px" />
-                            <img class="foto-perfil-story" src={fotoStory6} alt="" width="56px" height="56px" />
-                            <img class="foto-perfil-story" src={fotoStory7} alt="" width="56px" height="56px" />
-                            <img class="foto-perfil-story" src={fotoStory8} alt="" width="56px" height="56px" />
+                        <img className="foto-perfil-story" src={fotoStory3} alt="" width="56px" height="56px"/>
+                            <img className="foto-perfil-story" src={fotoStory4} alt="" width="56px" height="56px" />
+                            <img className="foto-perfil-story" src={fotoStory5} alt="" width="56px" height="56px" />
+                            <img className="foto-perfil-story" src={fotoStory6} alt="" width="56px" height="56px" />
+                            <img className="foto-perfil-story" src={fotoStory7} alt="" width="56px" height="56px" />
+                            <img className="foto-perfil-story" src={fotoStory8} alt="" width="56px" height="56px" />
 
                         </div>
-                        <div class="container-nome-stroy">
-                            <div class="nome-story">
+                        <div className="container-nome-stroy">
+                            <div className="nome-story">
                                 <p>crying</p>
                             </div>
-                            <div class="nome-story">
+                            <div className="nome-story">
                                 <p>man</p>
                             </div>
-                            <div class="nome-story">
+                            <div className="nome-story">
                                 <p>potates</p>
                             </div>
-                            <div class="nome-story">
+                            <div className="nome-story">
                                 <p>unicorn</p>
                             </div>
-                            <div class="nome-story">
+                            <div className="nome-story">
                                 <p>magic</p>
                             </div>
-                            <div class="nome-story">
+                            <div className="nome-story">
                                 <p>bike</p>
                             </div>
-                            <div class="nome-story">
+                            <div className="nome-story">
                                 <p>careca</p>
                             </div>
-                            <div class="nome-story">
+                            <div className="nome-story">
                                 <p>Monkey</p>
                             </div>
                         </div>
-                        <div class="seta">
-                            <ion-icon class="chevron-forward-circle" name="chevron-forward-circle"></ion-icon>
+                        <div className="seta">
+                            <ion-icon className="chevron-forward-circle" name="chevron-forward-circle"></ion-icon>
                         </div>
                     </div>
 

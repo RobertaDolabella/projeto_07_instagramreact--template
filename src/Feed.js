@@ -1,25 +1,41 @@
 import React from 'react';
-import './App.css'
 
 function Feed(){
 
 // logica
-const [Like, setLike] = React.useState("descurtido");
-const [Coracao, setCoracao] = React.useState("descurtidoCoracao");
 
+let listaLike=["descurtido","descurtido","descurtido","descurtido"]
+let listaCoracao =["descurtidoCoracao","descurtidoCoracao","descurtidoCoracao","descurtidoCoracao"]
 
-function changeStyle(){
-    console.log(Like)
-    if(Like=="descurtido"){
-        setLike("curtido");
-        console.log(Like)
-        setCoracao("curtidoCoracao");
-    }
-    else{
-        setLike("descurtido");
-        console.log(Like)
-        setCoracao("descurtidoCoracao");
-  }
+let Like0 = listaLike[0]
+let Coracao0=listaCoracao[0]
+let Like1 = listaLike[1]
+let Coracao1=listaCoracao[1]
+let Like2 = listaLike[2]
+let Coracao2=listaCoracao[2]
+let Like3 = listaLike[3]
+let Coracao3=listaCoracao[3]
+function changeStyle(numero){
+   if(listaLike[numero]=="descurtido"){
+       listaLike[numero]="curtido"
+       listaCoracao[numero]="curtidoCoracao"
+       console.log(listaLike)
+   }
+   else{
+    listaLike[numero]="descurtido"
+    listaCoracao[numero]="descurtidoCoracao"
+    console.log(listaLike)
+   }
+   let Like0 = listaLike[0]
+   let Coracao0=listaCoracao[0]
+   let Like1 = listaLike[1]
+   let Coracao1=listaCoracao[1]
+   let Like2 = listaLike[2]
+   let Coracao2=listaCoracao[2]
+   let Like3 = listaLike[3]
+   let Coracao3=listaCoracao[3]
+   console.log(Like0)
+
 }
     const publicacao1 = "https://i0.wp.com/techwek.com/wp-content/uploads/2021/02/melhores-memes-engracados.jpg?resize=564%2C634&ssl=1"
     const publicacao2 = "https://1.bp.blogspot.com/-SY6PSvONNJA/XKNmBBR6TTI/AAAAAAAAXB8/XY0_Dvb5OQMo-OcBTg9fB6ghEmiMWjq2QCLcBGAs/s640/Memes%2Bengra%25C3%25A7ados%2B%25281%2529.jpg"
@@ -45,11 +61,11 @@ function changeStyle(){
                         <ion-icon className="ellipsis-horizontal-outline" name="ellipsis-horizontal" width="16px"
                             weight="16px"></ion-icon>
                     </div>
-                    <div className="foto"><img src={publicacao1} onClick={changeStyle} alt="gato-telefone" width="612px" height="590px"></img>
-                    <ion-icon name="heart" className={Like} width="16px" weight="100px"></ion-icon>
+                    <div className="foto"><img src={publicacao1} onClick={()=>changeStyle(0)} alt="gato-telefone" width="612px" height="590px"></img>
+                    <ion-icon name="heart" className={Like0} width="16px" weight="100px"></ion-icon>
                     </div>
                     <div className="icones">
-                        <ion-icon name="heart" className={Coracao}></ion-icon>
+                        <ion-icon name="heart" className={Coracao0}></ion-icon>
                         <ion-icon name="paper-plane-outline" className="paper-plane-outline"></ion-icon>
                         <ion-icon className="chatbubble-outline" name="chatbubble-outline"></ion-icon>
                         <ion-icon name="bookmark-outline" className="bookmark-outline"></ion-icon>
@@ -70,11 +86,11 @@ function changeStyle(){
                         </div>
                         <ion-icon className="ellipsis-horizontal-outline" name="ellipsis-horizontal"></ion-icon>
                     </div>
-                    <div className="foto"><img src={publicacao2} onClick={changeStyle}  alt="dog" width="612px"height="590px"></img>
-                    <ion-icon name="heart" className={Like} width="16px" weight="100px"></ion-icon>
+                    <div className="foto"><img src={publicacao2} onClick={()=>changeStyle(1)}  alt="dog" width="612px"height="590px"></img>
+                    <ion-icon name="heart" className={Like1} width="16px" weight="100px"></ion-icon>
                     </div>
                     <div className="icones">
-                        <ion-icon name="heart-outline" className={Coracao} width="16.5px" height="15.3px"></ion-icon>
+                        <ion-icon name="heart-outline" className={Coracao1} width="16.5px" height="15.3px"></ion-icon>
                         <ion-icon name="paper-plane-outline" className="paper-plane-outline"></ion-icon>
                         <ion-icon className="chatbubble-outline" name="chatbubble-outline"></ion-icon>
                         <ion-icon name="bookmark-outline" className="bookmark-outline"></ion-icon>
@@ -96,11 +112,11 @@ function changeStyle(){
                         <ion-icon className="ellipsis-horizontal-outline" name="ellipsis-horizontal" width="16px"
                             weight="16px"></ion-icon>
                     </div>
-                    <div className="foto"><img src={publicacao3} onClick={changeStyle}  alt="gato-telefone" width="612px" height="590px"></img>
-                    <ion-icon name="heart" className={Like} width="16px" weight="100px"></ion-icon>
+                    <div className="foto"><img src={publicacao3} onClick={()=>changeStyle(2)}  alt="gato-telefone" width="612px" height="590px"></img>
+                    <ion-icon name="heart" className={Like2} width="16px" weight="100px"></ion-icon>
                     </div>
                     <div className="icones">
-                    <ion-icon name="heart-outline" className={Coracao}></ion-icon>
+                    <ion-icon name="heart-outline" className={Coracao2}></ion-icon>
                         <ion-icon name="paper-plane-outline" className="paper-plane-outline"></ion-icon>
                         <ion-icon className="chatbubble-outline" name="chatbubble-outline"></ion-icon>
                         <ion-icon name="bookmark-outline" className="bookmark-outline"></ion-icon>
@@ -123,10 +139,10 @@ function changeStyle(){
                         <ion-icon className="ellipsis-horizontal-outline" name="ellipsis-horizontal" width="16px"
                             weight="16px"></ion-icon>
                     </div>
-                    <div className="foto"><img src={publicacao4} onClick={changeStyle}  alt="gato-telefone" width="612px" height="590px"></img>
-                    <ion-icon name="heart" className={Like} width="16px" weight="100px"></ion-icon></div>
+                    <div className="foto"><img src={publicacao4} onClick={()=>changeStyle(3)}  alt="gato-telefone" width="612px" height="590px"></img>
+                    <ion-icon name="heart" className={Like3} width="16px" weight="100px"></ion-icon></div>
                     <div className="icones">
-                    <ion-icon name="heart-outline" className={Coracao}></ion-icon>
+                    <ion-icon name="heart-outline" className={Coracao3}></ion-icon>
                         <ion-icon name="paper-plane-outline" className="paper-plane-outline"></ion-icon>
                         <ion-icon className="chatbubble-outline" name="chatbubble-outline"></ion-icon>
                         <ion-icon name="bookmark-outline" className="bookmark-outline"></ion-icon>

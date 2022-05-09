@@ -1,5 +1,5 @@
 
-import './App.css';
+
 import Topo from './Topo';
 import Perfil from './Perfil';
 import Stories from './Stories';
@@ -13,13 +13,13 @@ function App() {
   return (
     <div>
       <Topo />
-      <div class="container">
-            <div class="scroll">
+      <div className="container">
+            <div className="scroll">
                 <Stories /> 
                 <Feed />
             </div>
         </div>
-    <div class="lateral">
+    <div className="lateral">
       <Perfil />
       <TituloSugestoes />
       <Sugestoes />
