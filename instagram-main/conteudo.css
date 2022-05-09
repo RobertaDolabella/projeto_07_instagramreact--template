@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@700&family=Roboto:wght@300;400;500&display=swap');
 
 *{
     box-sizing: border-box;
@@ -143,7 +144,7 @@
     box-sizing: border-box;
     overflow: hidden;
     width:58px;
-    height: 26px;
+    height: 19px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-style: normal;
@@ -152,8 +153,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    
 }
 .seta{
     position:absolute;
@@ -185,15 +184,11 @@
     border: 1px solid #DBDBDB;
     border-radius: 3px;
 }
-.perfilPubli{
-    clip-path: circle(16px at 16px 16px);
-
-}
 .perfilfoto{
     height: 60px;
     width: 614px;
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
     margin-left: 17px;
     display: flex;
     flex-direction: row;
@@ -205,13 +200,8 @@
 .comentario{
     display: flex;
     flex-direction: row;
-    align-items: center;
     margin-top: 12.06px ;
     margin-left: 17px;
-}
-.curtidopor{
-
-    clip-path: circle(10px at 10px 10px);
 }
 .pcomentario {
     font-family: 'Roboto', sans-serif;
@@ -229,9 +219,9 @@
     margin-left: 5px;
     font-weight: 500;
 }
-.nomeperfil>h4 {
+.nomeperfil {
     margin-left:15px;
-    margin-top: 8px;
+    padding-top: 6px;
     width: 109px;
     height: 21px;
     position: relative;
@@ -241,7 +231,6 @@
     line-height: 16.41px;
     font-weight: medium;
     margin-left: 5px;
-
 } 
 .ellipsis-horizontal-outline {
     margin-top: 11px;
@@ -538,4 +527,3 @@
         margin-left: 118.5px;
         margin-top: 17px;
     }
-}

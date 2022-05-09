@@ -1,0 +1,26 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1336px;
+    top: 54px;
+    position: absolute;
+}
+.scroll {
+    width: 614px;
+    left: 215px;
+    height: 100%;
+    position: relative;
+}
+.story{
+    margin-top: 34px;
+    margin-bottom: 24px;
+    width:614px ;
+    height: 118px;
+    position: absolute;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    flex-direction: row;
+    overflow: hidden;
+}
