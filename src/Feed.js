@@ -1,6 +1,22 @@
-
-
+import React from 'react';
+// logica
+let listaClasse= ["heart-outline","heart-outline","heart-outline","heart-outline"]
+    function curtir(numero){
+    console.log("entrou na função")
+    console.log(numero)
+    if(listaClasse[numero]=="heart-outline"){
+        console.log("contou")
+       listaClasse[numero]="vermelho"
+        console.log(listaClasse)
+    }
+    else{
+        listaClasse[numero]="heart-outline"
+    }
+    return Feed()
+    }
 function Feed(){
+
+
     const publicacao1 = "https://i0.wp.com/techwek.com/wp-content/uploads/2021/02/melhores-memes-engracados.jpg?resize=564%2C634&ssl=1"
     const publicacao2 = "https://1.bp.blogspot.com/-SY6PSvONNJA/XKNmBBR6TTI/AAAAAAAAXB8/XY0_Dvb5OQMo-OcBTg9fB6ghEmiMWjq2QCLcBGAs/s640/Memes%2Bengra%25C3%25A7ados%2B%25281%2529.jpg"
     const publicacao3 = "https://static.imgs.app/content/assetz/uploads/2017/10/os-melhores-memes-engracados-suricate-seboso-07.jpg"
@@ -25,10 +41,10 @@ function Feed(){
                         <ion-icon class="ellipsis-horizontal-outline" name="ellipsis-horizontal" width="16px"
                             weight="16px"></ion-icon>
                     </div>
-                    <div class="foto"><img src={publicacao1} alt="gato-telefone" width="612px" height="590px"></img>
+                    <div class="foto"><img src={publicacao1} onClick={() => curtir(0)} alt="gato-telefone" width="612px" height="590px"></img>
                     </div>
                     <div class="icones">
-                        <ion-icon name="heart-outline" class="heart-outline"></ion-icon>
+                        <ion-icon name="heart" class={listaClasse[0]}></ion-icon>
                         <ion-icon name="paper-plane-outline" class="paper-plane-outline"></ion-icon>
                         <ion-icon class="chatbubble-outline" name="chatbubble-outline"></ion-icon>
                         <ion-icon name="bookmark-outline" class="bookmark-outline"></ion-icon>
@@ -49,10 +65,10 @@ function Feed(){
                         </div>
                         <ion-icon class="ellipsis-horizontal-outline" name="ellipsis-horizontal"></ion-icon>
                     </div>
-                    <div class="foto"><img src={publicacao2} alt="dog" width="612px"height="590px"></img>
+                    <div class="foto"><img src={publicacao2} onClick={() => curtir(1)} alt="dog" width="612px"height="590px"></img>
                     </div>
                     <div class="icones">
-                        <ion-icon name="heart-outline" class="heart-outline" width="16.5px" height="15.3px"></ion-icon>
+                        <ion-icon name="heart-outline" class={listaClasse[1]} width="16.5px" height="15.3px"></ion-icon>
                         <ion-icon name="paper-plane-outline" class="paper-plane-outline"></ion-icon>
                         <ion-icon class="chatbubble-outline" name="chatbubble-outline"></ion-icon>
                         <ion-icon name="bookmark-outline" class="bookmark-outline"></ion-icon>
@@ -74,10 +90,10 @@ function Feed(){
                         <ion-icon class="ellipsis-horizontal-outline" name="ellipsis-horizontal" width="16px"
                             weight="16px"></ion-icon>
                     </div>
-                    <div class="foto"><img src={publicacao3} alt="gato-telefone" width="612px" height="590px"></img>
+                    <div class="foto"><img src={publicacao3} onClick={() => curtir(2)} alt="gato-telefone" width="612px" height="590px"></img>
                     </div>
                     <div class="icones">
-                        <ion-icon name="heart-outline" class="heart-outline"></ion-icon>
+                    <ion-icon name="heart-outline" class={listaClasse[2]}></ion-icon>
                         <ion-icon name="paper-plane-outline" class="paper-plane-outline"></ion-icon>
                         <ion-icon class="chatbubble-outline" name="chatbubble-outline"></ion-icon>
                         <ion-icon name="bookmark-outline" class="bookmark-outline"></ion-icon>
@@ -100,10 +116,10 @@ function Feed(){
                         <ion-icon class="ellipsis-horizontal-outline" name="ellipsis-horizontal" width="16px"
                             weight="16px"></ion-icon>
                     </div>
-                    <div class="foto"><img src={publicacao4} alt="gato-telefone" width="612px" height="590px"></img>
+                    <div class="foto"><img src={publicacao4} onClick={() => curtir(3)} alt="gato-telefone" width="612px" height="590px"></img>
                     </div>
                     <div class="icones">
-                        <ion-icon name="heart-outline" class="heart-outline"></ion-icon>
+                    <ion-icon name="heart-outline" class={listaClasse[3]}></ion-icon>
                         <ion-icon name="paper-plane-outline" class="paper-plane-outline"></ion-icon>
                         <ion-icon class="chatbubble-outline" name="chatbubble-outline"></ion-icon>
                         <ion-icon name="bookmark-outline" class="bookmark-outline"></ion-icon>

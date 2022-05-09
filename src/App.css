@@ -251,7 +251,15 @@
     margin-left: 17.75px;
     margin-top: 13.44px;
     font-size: 16px;
+ 
 }
+.icones.vermelho{
+    margin-left: 17.75px;
+    margin-top: 13.44px;
+    font-size: 16px;
+    color: red;
+}
+
 .icones .paper-plane-outline{
     margin-left: 17.81px;
     margin-top: 13.44px;
