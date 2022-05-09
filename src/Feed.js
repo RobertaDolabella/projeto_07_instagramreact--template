@@ -51,111 +51,109 @@ function changeStyle(numero){
     const curtidopor4 ="https://cdn.dicionariopopular.com/imagens/grupo-cachorro-o-grito2.jpg?auto_optimize=low"
      
     return(
-        <div className="feed">
-                <div className="publicaçao">
-                    <div className="perfilfoto"><img className="perfilPubli"src={perfilpubli1} alt="meow.perfil" width="32px"
+        <div class="feed">
+                <div class="publicaçao">
+                    <div class="perfilfoto"><img class="perfilPubli"src={perfilpubli1} alt="meow.perfil" width="32px"
                             height="32px"></img>
-                        <div className="nomeperfil">
+                        <div class="nomeperfil">
                             <h4>Jerry</h4>
                         </div>
-                        <ion-icon className="ellipsis-horizontal-outline" name="ellipsis-horizontal" width="16px"
+                        <ion-icon class="ellipsis-horizontal-outline" name="ellipsis-horizontal" width="16px"
                             weight="16px"></ion-icon>
                     </div>
-                    <div className="foto"><img src={publicacao1} onClick={()=>changeStyle(0)} alt="gato-telefone" width="612px" height="590px"></img>
-                    <ion-icon name="heart" className={Like0} width="16px" weight="100px"></ion-icon>
+                    <div class="foto"><img src={publicacao1} onClick={()=>changeStyle(0)} alt="gato-telefone" width="612px" height="590px"></img>
                     </div>
-                    <div className="icones">
-                        <ion-icon name="heart" className={Coracao0}></ion-icon>
-                        <ion-icon name="paper-plane-outline" className="paper-plane-outline"></ion-icon>
-                        <ion-icon className="chatbubble-outline" name="chatbubble-outline"></ion-icon>
-                        <ion-icon name="bookmark-outline" className="bookmark-outline"></ion-icon>
+                    <div class="icones">
+                        <ion-icon name="heart" class="descurtidoCoracao"></ion-icon>
+                        <ion-icon name="paper-plane-outline" class="paper-plane-outline"></ion-icon>
+                        <ion-icon class="chatbubble-outline" name="chatbubble-outline"></ion-icon>
+                        <ion-icon name="bookmark-outline" class="bookmark-outline"></ion-icon>
                     </div>
-                    <div className="comentario">
-                        <img className="curtidopor"src={curtidopor1} alt="" width="20px"></img>
-                        <p className="pcomentario">Curtido por</p>
-                        <h5 className="bold">responde aí</h5>
-                        <p className="pcomentario"> e </p>
-                        <h5 className="bold">outras 101.523 pessoas</h5>
+                    <div class="comentario">
+                        <img class="curtidopor"src={curtidopor1} alt="" width="20px"></img>
+                        <p class="pcomentario">Curtido por</p>
+                        <h5 class="bold">responde aí</h5>
+                        <p class="pcomentario"> e </p>
+                        <h5 class="bold">outras 101.523 pessoas</h5>
                     </div>
                 </div>
-                <div className="publicaçao">
-                    <div className="perfilfoto"><img className="perfilPubli"src={perfilpubli2} alt="perfil.dog" width="32px"
+                <div class="publicaçao">
+                    <div class="perfilfoto"><img class="perfilPubli"src={perfilpubli2} alt="perfil.dog" width="32px"
                             height="32px"></img>
-                        <div className="nomeperfil">
+                        <div class="nomeperfil">
                             <h4>Sauro</h4>
                         </div>
-                        <ion-icon className="ellipsis-horizontal-outline" name="ellipsis-horizontal"></ion-icon>
+                        <ion-icon class="ellipsis-horizontal-outline" name="ellipsis-horizontal"></ion-icon>
                     </div>
-                    <div className="foto"><img src={publicacao2} onClick={()=>changeStyle(1)}  alt="dog" width="612px"height="590px"></img>
-                    <ion-icon name="heart" className={Like1} width="16px" weight="100px"></ion-icon>
+                    <div class="foto"><img src={publicacao2} onClick={()=>changeStyle(1)}  alt="dog" width="612px"height="590px"></img>
                     </div>
-                    <div className="icones">
-                        <ion-icon name="heart-outline" className={Coracao1} width="16.5px" height="15.3px"></ion-icon>
-                        <ion-icon name="paper-plane-outline" className="paper-plane-outline"></ion-icon>
-                        <ion-icon className="chatbubble-outline" name="chatbubble-outline"></ion-icon>
-                        <ion-icon name="bookmark-outline" className="bookmark-outline"></ion-icon>
+                    <div class="icones">
+                        <ion-icon name="heart-outline" class="descurtidoCoracao" width="16.5px" height="15.3px"></ion-icon>
+                        <ion-icon name="paper-plane-outline" class="paper-plane-outline"></ion-icon>
+                        <ion-icon class="chatbubble-outline" name="chatbubble-outline"></ion-icon>
+                        <ion-icon name="bookmark-outline" class="bookmark-outline"></ion-icon>
                     </div>
-                    <div className="comentario">
-                        <img className="curtidopor" src={curtidopor2} alt="" width="20px"></img>
-                        <p className="pcomentario">Curtido por</p>
-                        <h5 className="bold">adorable_animals</h5>
-                        <p className="pcomentario"> e </p>
-                        <h5 className="bold">outras 99.523 pessoas</h5>
+                    <div class="comentario">
+                        <img class="curtidopor" src={curtidopor2} alt="" width="20px"></img>
+                        <p class="pcomentario">Curtido por</p>
+                        <h5 class="bold">adorable_animals</h5>
+                        <p class="pcomentario"> e </p>
+                        <h5 class="bold">outras 99.523 pessoas</h5>
                     </div>
                 </div>
-                <div className="publicaçao">
-                    <div className="perfilfoto"><img className="perfilPubli"src={perfilpubli3} alt="meow.perfil" width="32px"
+                <div class="publicaçao">
+                    <div class="perfilfoto"><img class="perfilPubli"src={perfilpubli3} alt="meow.perfil" width="32px"
                             height="32px"></img>
-                        <div className="nomeperfil">
+                        <div class="nomeperfil">
                             <h4>Madruga</h4>
                         </div>
-                        <ion-icon className="ellipsis-horizontal-outline" name="ellipsis-horizontal" width="16px"
+                        <ion-icon class="ellipsis-horizontal-outline" name="ellipsis-horizontal" width="16px"
                             weight="16px"></ion-icon>
                     </div>
-                    <div className="foto"><img src={publicacao3} onClick={()=>changeStyle(2)}  alt="gato-telefone" width="612px" height="590px"></img>
-                    <ion-icon name="heart" className={Like2} width="16px" weight="100px"></ion-icon>
+                    <div class="foto"><img src={publicacao3} onClick={()=>changeStyle(2)}  alt="gato-telefone" width="612px" height="590px"></img>
                     </div>
-                    <div className="icones">
-                    <ion-icon name="heart-outline" className={Coracao2}></ion-icon>
-                        <ion-icon name="paper-plane-outline" className="paper-plane-outline"></ion-icon>
-                        <ion-icon className="chatbubble-outline" name="chatbubble-outline"></ion-icon>
-                        <ion-icon name="bookmark-outline" className="bookmark-outline"></ion-icon>
+                    <div class="icones">
+                    <ion-icon name="heart-outline" class="descurtidoCoracao"></ion-icon>
+                        <ion-icon name="paper-plane-outline" class="paper-plane-outline"></ion-icon>
+                        <ion-icon class="chatbubble-outline" name="chatbubble-outline"></ion-icon>
+                        <ion-icon name="bookmark-outline" class="bookmark-outline"></ion-icon>
                     </div>
 
-                    <div className="comentario">
-                        <img className="curtidopor" src={curtidopor3} alt="" width="20px"></img>
-                        <p className="pcomentario">Curtido por</p>
-                        <h5 className="bold">responde aí</h5>
-                        <p className="pcomentario"> e </p>
-                        <h5 className="bold">outras 101.523 pessoas</h5>
+                    <div class="comentario">
+                        <img class="curtidopor" src={curtidopor3} alt="" width="20px"></img>
+                        <p class="pcomentario">Curtido por</p>
+                        <h5 class="bold">responde aí</h5>
+                        <p class="pcomentario"> e </p>
+                        <h5 class="bold">outras 101.523 pessoas</h5>
                     </div>
                 </div>
-                <div className="publicaçao">
-                    <div className="perfilfoto"><img className="perfilPubli"src={perfilpubli4} alt="meow.perfil" width="32px"
+                <div class="publicaçao">
+                    <div class="perfilfoto"><img class="perfilPubli"src={perfilpubli4} alt="meow.perfil" width="32px"
                             height="32px"></img>
-                        <div className="nomeperfil">
+                        <div class="nomeperfil">
                             <h4>Dobe</h4>
                         </div>
-                        <ion-icon className="ellipsis-horizontal-outline" name="ellipsis-horizontal" width="16px"
+                        <ion-icon class="ellipsis-horizontal-outline" name="ellipsis-horizontal" width="16px"
                             weight="16px"></ion-icon>
                     </div>
-                    <div className="foto"><img src={publicacao4} onClick={()=>changeStyle(3)}  alt="gato-telefone" width="612px" height="590px"></img>
-                    <ion-icon name="heart" className={Like3} width="16px" weight="100px"></ion-icon></div>
-                    <div className="icones">
-                    <ion-icon name="heart-outline" className={Coracao3}></ion-icon>
-                        <ion-icon name="paper-plane-outline" className="paper-plane-outline"></ion-icon>
-                        <ion-icon className="chatbubble-outline" name="chatbubble-outline"></ion-icon>
-                        <ion-icon name="bookmark-outline" className="bookmark-outline"></ion-icon>
+                    <div class="foto"><img src={publicacao4} onClick={()=>changeStyle(3)}  alt="gato-telefone" width="612px" height="590px"></img>
                     </div>
-                    <div className="comentario">
-                        <img className="curtidopor" src={curtidopor4} alt="" width="20px"></img>
-                        <p className="pcomentario">Curtido por</p>
-                        <h5 className="bold">responde aí</h5>
-                        <p className="pcomentario"> e </p>
-                        <h5 className="bold">outras 101.523 pessoas</h5>
+                    <div class="icones">
+                    <ion-icon name="heart-outline" class="descurtidoCoracao"></ion-icon>
+                        <ion-icon name="paper-plane-outline" class="paper-plane-outline"></ion-icon>
+                        <ion-icon class="chatbubble-outline" name="chatbubble-outline"></ion-icon>
+                        <ion-icon name="bookmark-outline" class="bookmark-outline"></ion-icon>
+                    </div>
+                    <div class="comentario">
+                        <img class="curtidopor" src={curtidopor4} alt="" width="20px"></img>
+                        <p class="pcomentario">Curtido por</p>
+                        <h5 class="bold">responde aí</h5>
+                        <p class="pcomentario"> e </p>
+                        <h5 class="bold">outras 101.523 pessoas</h5>
                     </div>
                 </div>
             </div>
+           
     )
 }
 
