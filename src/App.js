@@ -7,6 +7,7 @@ import Feed from './Feed';
 import TituloSugestoes from './TituloSugestoes';
 import Sugestoes from './Sugestoes';
 import Sobre from './Sobre.js';
+import BarraFinal from './BarraFinal';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
       <Sugestoes />
       <Sobre />
     </div>
-
+    <BarraFinal />
 
   </div>
     
